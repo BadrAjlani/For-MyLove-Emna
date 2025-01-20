@@ -148,6 +148,18 @@ li span {
 .step-3 .giftbox:after, .step-4 .giftbox:after {
   opacity: 0;
 }
+#surpriseImage {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px; /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 9999;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
 .step-2 .giftbox .cover {
   animation: flyUp 2s ease-in forwards;
 }
