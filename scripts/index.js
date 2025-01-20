@@ -486,6 +486,8 @@ const x = setInterval(function() {
       if (step === 3) {
       }
       if (step === 4) {
+        const surpriseImage = document.getElementById('surpriseImage');
+        surpriseImage.style.display = 'block'; // Make the image visible
         return;
       }
       setTimeout(openBox, stepMinutes[step - 1]);
